@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "BiennaleBold";
+  src:
+    url("fonts/BiennaleBold/font.woff2") format("woff2"),
+    url("fonts/BiennaleBold/font.woff") format("woff");
+}
+@font-face {
+  font-family: "BiennaleMedium";
+  src:
+    url("fonts/BiennaleMedium/font.woff2") format("woff2"),
+    url("fonts/BiennaleMedium/font.woff") format("woff");
+}
+
+h1 {
+  text-wrap: balance; 
+}
+
+.hexagons .row {
+  margin-top: -29px; 
+  margin-right: -50px;
+}
+
+.hexagons .row:nth-child(even) {
+  margin-right: 2px;
+}
+
+.hexagon {
+  position: relative;
+  width: 102px;
+  height: 112px;
+  background-color: #F3F3F3;
+  margin: 1px;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  padding: 1px;
+}
+
+.hexagons.subtle .hexagon {
+  background-color: rgba(255,255,255, 0.1);
+}
+
+.hexagon > div {
+  width: 100px;
+  height: 110px;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  transition: 2s;
+  background-color: #FFF;
+}
+
+.hexagons.subtle .hexagon > div {
+  background-color: transparent;
+}
+
+.hexagon > div.highlight {
+  background-color: rgba(255,191,0,0.05);
+}
+
+.hexagon > div:hover {
+  transition: 0s; 
+  background-color: #EEE;
+}
+
+.hexagons.subtle .hexagon > div:hover {
+  background-color: rgba(255,255,255,0.5);
+}
+
+.hexagon:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  pointer-events: none;
+  background: rgba(255, 255, 255, 0.02);
+}
+
+li::before {
+  content: "•"; 
+  color: #FFA700;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1.25em;
+}

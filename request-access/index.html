@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Hivebase :: Request Access</title>
+
+    <link rel="preconnect" href="https://rsms.me/" />
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+    <link rel="stylesheet" href="/main.css" data-n-g="" />
+    <link rel="icon" href="/favicon.png" type="image/x-icon" />
+  </head>
+
+  <body class="leading-6">
+    <header
+      class="py-6 bg-white/75 backdrop-blur fixed inset-x-0 top-0 z-30 border-b border-gray-200/50"
+    >
+      <div
+        class="px-6 xl:px-0 max-w-6xl mx-auto flex justify-between items-center"
+      >
+        <img src="/assets/hb-logo.svg" class="h-8 md:h-12" />
+        <div></div>
+      </div>
+    </header>
+    <main class="">
+      <section class="max-w-6xl mx-auto px-6 relative">
+        <!-- Hero content -->
+        <div class="pt-48 pb-32 flex justify-between gap-6 relative">
+          <div class="flex flex-col gap-6 z-20">
+            <div class="uppercase text-smtracking-wider font-medium">
+              <a
+                href="/"
+                class="inline-flex items-center gap-2 text-amber-500 hover:text-black"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  viewBox="0 0 448 512"
+                  class="w-6 h-6"
+                >
+                  <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                  <path
+                    d="M4.7 244.7c-6.2 6.2-6.2 16.4 0 22.6l176 176c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6L54.6 272 432 272c8.8 0 16-7.2 16-16s-7.2-16-16-16L54.6 240 203.3 91.3c6.2-6.2 6.2-16.4 0-22.6s-16.4-6.2-22.6 0l-176 176z"
+                  />
+                </svg>
+                BACK
+              </a>
+            </div>
+
+            <div class="flex flex-col lg:flex-row gap-10">
+              <div>
+                <h1 class="font-heading font-bold text-5xl text-gray-900 mb-8">
+                  Request access
+                </h1>
+
+                <div class="text-gray-500 text-lg font-light">
+                  <span class="font-bold text-lg"
+                    >Hivebase is currently in beta.
+                  </span>
+                  We are providing early access to customers who are eager to
+                  help test it out and provide feedback.
+                  <span class="whitespace-nowrap"
+                    >Is this you? If so, let's talk.</span
+                  >
+                </div>
+              </div>
+
+              <iframe
+                style="border: none; width: 100%"
+                height="680px"
+                src="https://opnform.com/forms/hivebase-beta-access-nxbnoc"
+              ></iframe>
+            </div>
+          </div>
+          <!-- <div class="w-2/5 border border-gray-100"></div> -->
+        </div>
+      </section>
+    </main>
+
+    <footer class="mt-12 py-6 px-10 border-t border-gray-200/50">
+      <div
+        class="max-w-6xl mx-auto flex flex-col md:flex-row gap-4 items-center justify-between text-sm text-gray-500"
+      >
+        <div class="flex-1">
+          <a href="/terms">Terms of Service</a>
+          &middot;
+          <a href="/privacy">Privacy Policy</a>
+        </div>
+        <div class="order-1 md:order-none md:flex justify-center">
+          <img src="/favicon.png" class="w-12" />
+        </div>
+        <div class="flex-1 md:text-right">
+          Copyright &copy; 2023. All rights reserved.
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      window.addEventListener('message', function(event) {
+         if (event.data?.type !== 'form-submitted') {
+             return;
+         }    
+         window.location.href = "/request-access/sent.html";
+      });
+      </script>
+  </body>
+</html>
