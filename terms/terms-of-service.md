@@ -18,7 +18,7 @@ For the purposes of these Legal Terms:
 - **“Customer Content”** means any documents, data, files, text, images, or other content that a Customer, Reseller, Authorized User, or Guest User uploads to, stores in, or transmits through the Services.  
 ### 1.2  Provision of Services  
 Company will make the Services available to Customers, Resellers, Authorized Users, and Guest Users during the term of their subscription in accordance with these Legal Terms. Except for the limited rights expressly granted herein, nothing in these Legal Terms transfers any ownership of Customer Content to Company.
-### 1.3  License to Customer Content  
+### 1.3  Licene to Customer Content  
 Customer hereby grants to Company a worldwide, non-exclusive, royalty-free license to host, store, transmit, display, and otherwise process Customer Content **solely** for the purpose of providing and supporting the Services and for no other purpose.
 ### 1.4  Prohibited Sensitive Data  
 The Services **are not designed to comply with industry-specific regulations**—including, without limitation, the Health Insurance Portability and Accountability Act (HIPAA), the Gramm-Leach-Bliley Act (GLBA), the International Traffic in Arms Regulations (ITAR), or any equivalent foreign laws. Accordingly, **you must not upload or otherwise process through the Services any information that is subject to such regulations unless you have first entered into a separate written data-processing or business-associate agreement with Company that expressly permits such use**. You acknowledge that any breach of this section may result in immediate suspension or termination of your access to the Services.
@@ -32,7 +32,7 @@ You are responsible for compliance with all applicable export-control, sanctions
 Except for Customer Content (defined below), the Services—including all software, source code, design, text, graphics, photographs, video, audio, user-interface elements, the Hivebase® and related word marks and logos (collectively, “Company IP”)—are and shall remain the exclusive property of Company or its licensors.  Company IP is protected by U.S. and foreign copyright, trademark, and other intellectual-property laws.  Subject to these Legal Terms, Company grants you a limited, revocable, non-exclusive, non-transferable license to access and use the Company IP solely to the extent necessary to enjoy the Services for your internal business purposes.  No other rights, title, or interest are granted or implied.
 ### 2.2  Customer Content Ownership  
 “**Customer Content**” means any documents, drawings, images, text, data, or other content that you, a Reseller, an Authorized User, or a Guest User uploads to, stores in, or transmits through the Services.  **As between the parties, you (or your licensors) retain all right, title, and interest in and to Customer Content.**  No ownership of Customer Content transfers to Company under these Legal Terms.
-### 2.3  License to Customer Content  
+### 2.3  Licene to Customer Content  
 You hereby grant Company a worldwide, non-exclusive, royalty-free license to host, store, reproduce, transmit, display, and process Customer Content **solely for the purpose of providing, maintaining, securing, and improving the Services** and for no other purpose.  This license extends to Company’s subcontractors and infrastructure providers to the limited extent necessary to operate the Services, provided they are bound by confidentiality obligations no less protective than those in these Legal Terms.
 ### 2.4  User and Reseller Warranties  
 You represent and warrant that (a) you have and will maintain all rights, licenses, and permissions necessary to grant the license in § 2.3 and to upload, store, display, or otherwise process Customer Content through the Services, without infringing or misappropriating any third-party rights, and (b) if you are a Reseller, you remain responsible for any Customer Content uploaded or accounts provisioned by you or on your behalf, and you will not make any representation, warranty, or commitment regarding the Services that is inconsistent with the published documentation or these Legal Terms.
@@ -120,7 +120,7 @@ You agree not to, and will not permit any third party to, do any of the followin
 ### 6.6 Enforcement  
 Company reserves the right, but not the obligation, to investigate any Prohibited Activity and to remove or disable access to Customer Content or suspend accounts in accordance with § 4.5.  Company may also report any Prohibited Activity to law-enforcement authorities and cooperate with any investigation.
 ### 6.7 Reporting  
-Suspected Prohibited Activity may be reported to Company at **abuse@hivebase.com**.
+Suspected Prohibited Activity may be reported to Company at **security@hivebase.com**.
 ### 6.8 Third-Party Services 
 Any digitization, scanning, or document-preparation services performed by a Reseller or other third party are independent of the Services. Company is not responsible for, and disclaims all liability arising from, such third-party services or the physical documents handled in connection therewith.
 
